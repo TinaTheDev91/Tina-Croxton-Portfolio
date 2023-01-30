@@ -1,0 +1,52 @@
+* {
+    font-family: roboto condensed;
+    background-color: #B09FCA;
+}
+
+.header {
+    background-image: linear-gradient(#51227d, #B09FCA);
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+.header nav ul li {
+    display: inline-flex;
+    margin-left: 25px;
+    list-style-type: none;
+}
+
+.work img {
+    border: 10px;
+    border-style: solid;
+    border-color: #1A0029;
+}
+
+img {
+    max-height: 250px;
+}
+
+img:hover {
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.contact-me ul li {
+    display: inline-flex;
+    margin-right: 20px;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #1A0029;
+}
