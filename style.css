@@ -42,11 +42,37 @@ img:hover {
 
 h2 {
     font-size: 30px;
+    width: 30px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.work ul li {
+    list-style-type: none;
 }
 
 .contact-me ul li {
-    display: inline-flex;
+    display: inline-block;
     margin-right: 20px;
     padding-bottom: 5px;
     border-bottom: 5px solid #1A0029;
+    font-size: 30px;
+}
+/* 
+.contact-me {
+    display: inline-block;
+    align-items: flex-start;
+} */
+
+.about-me h2,
+.work h2,
+.contact-me h2 {
+    padding-right: 5px;
+}
+
+.contact-me ul,
+.about-me p,
+.work ul {
+    border-left: 10px solid #1A0029;
+    margin-left: 10px;
 }
