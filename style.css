@@ -32,7 +32,7 @@ nav {
 }
 
 .content {
-    margin-left: 30px;
+    margin-left: 45px;
 }
 
 .heading p {
@@ -40,7 +40,7 @@ nav {
 }
 
 .heading h1 {
-    font-size: 2.25em;
+    font-size: 2.75em;
 }
 
 .heading h2 {
@@ -54,7 +54,7 @@ nav {
 .about-me h2,
 .work h2,
 .contact-me h2 {
-    width: min-content;
+    width: 150px;
     padding-right: 25px;
     border-right: var(--purple) solid 15px;
     text-align: right;
@@ -67,6 +67,11 @@ nav {
 .contact-me ul {
     margin-left: 50px;
     padding-left: 20px;
+}
+
+.avatar img {
+    width: 50px;
+    height: auto;
 }
 
 
