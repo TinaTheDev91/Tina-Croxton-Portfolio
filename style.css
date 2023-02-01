@@ -1,9 +1,139 @@
-* {
-    font-family: roboto condensed;
-    background-color: #B09FCA;
+:root {
+    --purple: #4D206D;
+    --lightpurple: #B09FCA;
+    --darkblue: #251858;
+    --dustypurple: #E5D3E1;
+    --hotpink: #ED5B9A;
+    --teal: #00D1CF;
+
 }
 
-.header {
+* {
+    font-family: roboto condensed;
+    background-color: var(--dustypurple);
+    color: var(--darkblue);
+}
+
+header .heading {
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 20px;
+    font-size: 1.25em;
+}
+
+nav {
+    float: right;
+}
+
+.content {
+    margin-left: 30px;
+}
+
+.heading p {
+    font-size: 1.5em;
+}
+
+.heading h1 {
+    font-size: 2.25em;
+}
+
+.heading h2 {
+    font-size: 1.75em;
+}
+
+.about-me {
+    display: inline-flex;
+}
+
+.about-me h2,
+.work h2,
+.contact-me h2 {
+    width: min-content;
+    padding-right: 25px;
+    border-right: var(--purple) solid 15px;
+    text-align: right;
+    background-color: #00D1CF;
+    font-size: 3em;
+}
+
+.about-me p,
+.work ul,
+.contact-me ul {
+    margin-left: 50px;
+    padding-left: 20px;
+}
+
+
+/* .about-me {
+    display: flex;
+} */
+
+/* .about-me h2 {
+    align-items: flex-start;
+} */
+
+.work,
+.contact-me {
+    display: flex;
+}
+
+.work ul li,
+.contact-me ul li {
+    display: inline;
+}
+
+/* .about-me,
+.work {
+    display: flex;
+    align-items: center;
+} */
+
+
+
+
+
+/* header {
+    background-image: linear-gradient(var(--teal), var(--hotpink));
+} */
+
+
+
+/* .header nav ul li {
+    display: inline;
+    padding: 10px;
+    align-items: baseline;
+} */
+
+
+/* h1 {
+    display: inline;
+} */
+
+/* h1, nav {
+    display: inline-block;
+    align-items: baseline;
+    justify-content: flex-end;
+} */
+
+
+
+/* .header {
+    display: inline-flex;
+    align-items: baseline;
+} */
+
+
+
+/* .header {
+    justify-content: flex-end;
+} */
+
+
+/* .header {
     background-image: linear-gradient(#51227d, #B09FCA);
 }
 
@@ -49,4 +179,4 @@ h2 {
     margin-right: 20px;
     padding-bottom: 5px;
     border-bottom: 5px solid #1A0029;
-}
+} */
