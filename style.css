@@ -9,7 +9,7 @@
 }
 
 * {
-    font-family: roboto condensed;
+    font-family: roboto condensed, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: var(--darkblue);
 }
 
@@ -192,7 +192,7 @@ nav ul li:hover {
 }
 
 /* cell phone formatting */
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 480px) {
     * {
         padding: 0px;
     }
