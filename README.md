@@ -15,14 +15,10 @@ https://tinathedev91.github.io/Tina-Croxton-Portfolio/
 
 When viewing the website, it should resemble the following images. Included are screenshots demonstrating the optimization on both mobile and desktop view. If have any issues upon viewing, please contact me via email at TinaTheDev91@gmail.com
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
    
-    ![screenshot mobile view](./assets/Screenshot%20Mobile%20View.PNG)
-       
-    ![screenshot mobile FULL view](./assets/Mobile%20Full%20View.pdf)
+![screenshot-mobile](./assets/Screenshot%20Mobile%20View.PNG)
+![screenshot-mobile-full](./assets/Mobile%20Full%20View.pdf)
+![screenshot-desktop](./assets/Screenshot%20Desktop.jpg)
    
 
 ## Credits and Mentions
