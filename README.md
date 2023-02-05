@@ -17,7 +17,7 @@ When viewing the website, it should resemble the following images. Included are 
 
    
 ![screenshot-mobile](./assets/Screenshot%20Mobile%20View.PNG)
-![screenshot-mobile-full](./assets/Mobile%20Full%20View.pdf)
+![screenshot-mobile-full](./assets/Mobile%20Full%20View.jpg)
 ![screenshot-desktop](./assets/Screenshot%20Desktop.jpg)
    
 
