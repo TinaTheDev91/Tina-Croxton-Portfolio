@@ -16,9 +16,9 @@ https://tinathedev91.github.io/Tina-Croxton-Portfolio/
 When viewing the website, it should resemble the following images. Included are screenshots demonstrating the optimization on both mobile and desktop view. If have any issues upon viewing, please contact me via email at TinaTheDev91@gmail.com
 
    
+![screenshot-desktop](./assets/Screenshot%20Desktop.jpg)
 ![screenshot-mobile](./assets/Screenshot%20Mobile%20View.PNG)
 ![screenshot-mobile-full](./assets/Mobile%20Full%20View.jpg)
-![screenshot-desktop](./assets/Screenshot%20Desktop.jpg)
    
 
 ## Credits and Mentions
