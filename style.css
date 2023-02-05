@@ -1,10 +1,6 @@
 :root {
-    --purple: #4D206D;
-    --lightpurple: #B09FCA;
     --darkblue: #251858;
-    --dustypurple: #E5D3E1;
     --hotpink: #ED5B9A;
-    --teal: #00D1CF;
 
 }
 
@@ -12,7 +8,7 @@
     font-family: roboto condensed, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: var(--darkblue);
 }
-
+ /* header and nav */
 header {
     background-image: url(./assets/Background\ Image.png);
     background-size: cover;
@@ -59,16 +55,11 @@ nav {
     text-shadow: 2px 2px 5px var(--hotpink);
 }
 
+/* main body styling */
 .content {
     margin-left: 45px;
     margin-right: 45px;
     padding-top: 45px;
-}
-
-.work ul li {
-    text-align: center;
-    font-weight: bolder;
-    text-shadow: 2px 2px 5px var(--hotpink)
 }
 
 .avatar-about-me {
@@ -80,25 +71,6 @@ nav {
     height: auto;
     margin-right: 30px;
     object-fit: contain;
-}
-
-.work h2,
-.contact-me h2 {
-    margin-left: 45px;
-    margin-right: 45px;
-}
-
-.about-me h2,
-.work h2,
-.contact-me h2 {
-    padding-bottom: 10px;
-    border-bottom: var(--darkblue) solid;  
-}
-
-.work ul li,
-.contact-me ul li {
-    list-style-type: none;
-    
 }
 
 .websites {
@@ -121,10 +93,30 @@ nav {
     justify-content: center;
     align-items: center;
 }
-div {
-    display: flex;
-    justify-content: center;
+
+.work ul li {
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px var(--hotpink)
+}
+
+.work ul li,
+.contact-me ul li {
+    list-style-type: none;
+    
+}
+
+.work h2,
+.contact-me h2 {
+    margin-left: 45px;
     margin-right: 45px;
+}
+
+.about-me h2,
+.work h2,
+.contact-me h2 {
+    padding-bottom: 10px;
+    border-bottom: var(--darkblue) solid;  
 }
 
 .website-1 {
@@ -135,6 +127,13 @@ div {
 .website-3 {
     flex-grow: 100;
 }
+
+div {
+    display: flex;
+    justify-content: center;
+    margin-right: 45px;
+}
+
 
 .contact-me ul {
     display: flex;
